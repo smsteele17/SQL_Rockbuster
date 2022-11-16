@@ -6,7 +6,7 @@ SELECT B.customer_id,
   B.last_name,
   D.city,
   E.country,
-  SUM(a.amount) AS total_amount_paid
+  SUM(A.amount) AS total_amount_paid
 FROM payment A
 INNER JOIN customer B ON A.customer_id = B.customer_id
 INNER JOIN address C ON B.address_id = C.address_id
@@ -16,4 +16,4 @@ WHERE d.city IN ('Aurora', Atlixco', 'Xintai', 'Adoni', 'Dhule (Dhulia)', 'Kuras
                   'Pingxiang', 'Sivas', 'Celaya', 'So Leopoldo')
 GROUP BY B.customer, B.first_name, B.last_name, D.city, E.country
 ORDER BY total_amount_paid DESC
-Limit 5
+LIMIT 5
