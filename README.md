@@ -5,4 +5,4 @@ Rockbuster Stealth LLC is a movie rental company that used to have stores arount
 # Data Set & Project
 Rockbuster Data Set [here](https://github.com/smsteele17/SQL_Rockbuster/files/10024919/dvdrental.3.zip)
 
-Tableau Project (https://github.com/smsteele17/SQL_Rockbuster/edit/main/README.md)
+Tableau Storyboard https://public.tableau.com/app/profile/shelby.steele/viz/RockbusterStoryboard/Story1 
